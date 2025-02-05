@@ -1,6 +1,6 @@
 <?php
 
-namespace GdprExtensionsCom\GdprExtensionsComPinterestProfile\Controller;
+namespace GdprExtensionsCom\GdprExtensionsComPintProf\Controller;
 
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Utility\GeneralUtility;

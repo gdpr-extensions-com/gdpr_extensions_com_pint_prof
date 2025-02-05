@@ -2,7 +2,7 @@
     xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
     data-namespace-typo3-fluid="true">
 
-{namespace my=GdprExtensionsCom\GdprExtensionsComPinterestProfile\ViewHelpers}
+{namespace my=GdprExtensionsCom\GdprExtensionsComPintProf\ViewHelpers}
 {namespace v=FluidTYPO3\Vhs\ViewHelpers}
 
 <f:layout name="Default" />
@@ -295,10 +295,10 @@
             max-height: 410px;
             overflow-y: auto;
         }
-        .tx-gdpr-extensions-com-pinterest-profile #gdpr-extensions-com-cookie-container div.privacy-msg .wraper {
+        .tx-gdpr-extensions-com-pint-prof #gdpr-extensions-com-cookie-container div.privacy-msg .wraper {
             width: unset !important;
         }
-        .tx-gdpr-extensions-com-pinterest-profile #gdpr-extensions-com-cookie-container .gdprInner iframe{
+        .tx-gdpr-extensions-com-pint-prof #gdpr-extensions-com-cookie-container .gdprInner iframe{
             border: 0;
             height: revert-layer;
             max-height: unset;
@@ -311,7 +311,7 @@
         <f:variable name="decodedArray" value="{twoClickSol -> v:format.json.decode()}" />
             <div class="gdpr-extensions-com-cookie-container" id="gdpr-extensions-com-cookie-container">
                 <div class="gdprInner" style="width:100%; height:100%; text-align: center;">
-                    <div data-2click-service="gdpr_extensions_com_pinterest_profile" data-2click-type="video"
+                    <div data-2click-service="gdpr_extensions_com_pint_prof" data-2click-type="video"
                         style="width:100%; height:auto; display: none;">
                         <a href="{PinterestData.gdpr_pinterest_profile_url}" data-pin-do="embedUser" 
                             data-pin-board-width="<f:if condition='{PinterestData.board_profile_width}'><f:then>{PinterestData.board_profile_width}</f:then><f:else>130</f:else></f:if>"
@@ -701,6 +701,7 @@
     var v = document.cookie.match('(^|;) ?' + consentCookieName + '=([^;]*)(;|$)');
     return v ? JSON.parse(v[2]) : {};
     }
+    <!--  -->
     function loadPinterestScript() {
     var f = document.getElementsByTagName('SCRIPT')[0],
     p = document.createElement('SCRIPT');
@@ -735,13 +736,7 @@
     dispatchLoadEvent();
     });
 
-
-
-
-
-
-
-
+    <!--  -->
 
 
 
@@ -767,7 +762,7 @@
 
     this.EnableContent = function (type) {
     var i;
-    if(type ==='gdpr_extensions_com_pinterest'){
+    if(type ==='gdpr_extensions_com_pint_prof'){
     loadPinterestScript();
     }
     // Cookies globally enabled by config?
@@ -830,7 +825,7 @@
     gdpr_extensions_com_sfc_gdpr(x[i],'add');
     }
 
-    if (serviceType === 'gdpr_extensions_com_pinterest' || serviceType === 'gdpr_extensions_com_pinterest_profile' || serviceType === 'gdpr_extensions_com_pinterest_pin') {
+    if (serviceType === 'gdpr_extensions_com_pint_board' || serviceType === 'gdpr_extensions_com_pint_prof' || serviceType === 'gdpr_extensions_com_pint_pin') {
     loadPinterestScript();
 
     }
@@ -1090,7 +1085,7 @@
 
     gdpr_extensions_com_sfc_gdpr(selector[x],'add');
     }
-    if (service === 'gdpr_extensions_com_pinterest' || service === 'gdpr_extensions_com_pinterest_profile' || service === 'gdpr_extensions_com_pinterest_pin') {
+    if (service === 'gdpr_extensions_com_pint_board' || service === 'gdpr_extensions_com_pint_prof' || service === 'gdpr_extensions_com_pint_pin') {
     loadPinterestScript();
 
     }

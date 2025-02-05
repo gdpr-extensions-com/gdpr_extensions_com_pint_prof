@@ -1,6 +1,6 @@
 <?php
 
-namespace GdprExtensionsCom\GdprExtensionsComPinterestProfile\Domain\Model;
+namespace GdprExtensionsCom\GdprExtensionsComPintProf\Domain\Model;
 
 class MapLocation extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 {

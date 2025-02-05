@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GdprExtensionsCom\GdprExtensionsComPinterestProfile\Domain\Model;
+namespace GdprExtensionsCom\GdprExtensionsComPintProf\Domain\Model;
 
 
 /**
- * This file is part of the "gdpr-extensions-com-pinterest-profile" Extension for TYPO3 CMS.
+ * This file is part of the "gdpr-extensions-com-pint-prof" Extension for TYPO3 CMS.
  *
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.

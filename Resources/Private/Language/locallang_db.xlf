@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:gdpr_extensions_com_pinterest_profile/Resources/Private/Language/locallang_db.xlf" date="2023-12-15T08:19:36Z" product-name="gdpr_extensions_com_pinterest_profile">
+	<file source-language="en" datatype="plaintext" original="EXT:gdpr_extensions_com_pint_prof/Resources/Private/Language/locallang_db.xlf" date="2023-12-15T08:19:36Z" product-name="gdpr_extensions_com_pint_prof">
 		<header/>
 		<body>
-			<trans-unit id="tx_gdprextensionscompinterestprofile_domain_model_gdprpinterest" resname="tx_gdprextensionscompinterestprofile_domain_model_gdprpinterest">
+			<trans-unit id="tx_gdprextensionscompintprof_domain_model_gdprpinterest" resname="tx_gdprextensionscompintprof_domain_model_gdprpinterest">
 				<source>Gdpr Pinterest Profile</source>
 			</trans-unit>
-			<trans-unit id="tx_gdprextensionscompinterestprofile_domain_model_gdprpinterest.description" resname="tx_gdprextensionscompinterestprofile_domain_model_gdprpinterest.description">
+			<trans-unit id="tx_gdprextensionscompintprof_domain_model_gdprpinterest.description" resname="tx_gdprextensionscompintprof_domain_model_gdprpinterest.description">
 				<source>Gdpr Pinterest Profile</source>
 			</trans-unit>
 			<trans-unit id="tx_gdprextensionscomyoutube_domain_model_gdprmanager" resname="tx_gdprextensionscomyoutube_domain_model_gdprmanager">
@@ -81,77 +81,77 @@
 			<trans-unit id="tx_gdprextensionscomyoutube_domain_model_gdprmanager.cookie_widget_position.description" resname="tx_gdprextensionscomyoutube_domain_model_gdprmanager.cookie_widget_position.description">
 				<source>Cookie Widget Position</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.name" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.name">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.name" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.name">
 				<source>Pinterest Profile</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.name.tab" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.name">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.name.tab" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.name">
 				<source>GDPR-Extensions-Com</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.description" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.description">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.description" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.description">
 				<source></source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest">
 				<source>Pinterest Profile</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_url" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_url">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_url" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_url">
 				<source>Profile Url</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.scale_profile_width" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.scale_profile_width">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.scale_profile_width" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.scale_profile_width">
 				<source>Profile Scale Width</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.scale_profile_width.description" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.scale_profile_width.description">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.scale_profile_width.description" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.scale_profile_width.description">
 				<source>Profile Scale Width</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.scale_profile_height" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.scale_profile_height">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.scale_profile_height" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.scale_profile_height">
 				<source>Profile Scale Height</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.scale_profile_height.description" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.scale_profile_height.description">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.scale_profile_height.description" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.scale_profile_height.description">
 				<source>Profile Scale Height</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.map_marker_image" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.map_marker_image">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.map_marker_image" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.map_marker_image">
 				<source>Marker Image</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_url.description" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_url.description">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_url.description" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_url.description">
 				<source>Profile Url</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_review_image" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_review_image">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_review_image" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_review_image">
 				<source>Profile Review Image</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_review_image.description" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_review_image.description">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_review_image.description" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_review_image.description">
 				<source>Profile Review Image</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_options" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_options">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_options" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_options">
 				<source>Profile Options</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_options.description" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_options.description">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_options.description" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_options.description">
 				<source>Profile Options</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_start_time" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_start_time">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_start_time" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_start_time">
 				<source>Profile Start Time</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_start_time.description" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_start_time.description">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_start_time.description" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_start_time.description">
 				<source>Profile Start Time</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_end_time" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_end_time">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_end_time" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_end_time">
 				<source>Profile End Time</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_end_time.description" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_vid_end_time.description">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_end_time.description" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_vid_end_time.description">
 				<source>Profile End Time</source>
 			</trans-unit>
 
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_yts_autoplay" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_yts_autoplay">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_yts_autoplay" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_yts_autoplay">
 				<source>Profile Autoplay</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_yts_show_captions" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_yts_show_captions">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_yts_show_captions" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_yts_show_captions">
 				<source>Profile Show Captions</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_yts_disable_annotations" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_yts_disable_annotations">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_yts_disable_annotations" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_yts_disable_annotations">
 				<source>Profile Disable Annotations</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_yts_disable_keypin" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_yts_disable_keypin">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_yts_disable_keypin" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_yts_disable_keypin">
 				<source>Profile Disable Keypin</source>
 			</trans-unit>
-			<trans-unit id="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_yts_display_fs" resname="tx_gdpr_extensions_com_pinterest_profile_gdprpinterest.gdpr_yts_display_fs">
+			<trans-unit id="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_yts_display_fs" resname="tx_gdpr_extensions_com_pint_prof_gdprpinterest.gdpr_yts_display_fs">
 				<source>Profile Display Fullscreen</source>
 			</trans-unit>
 		</body>

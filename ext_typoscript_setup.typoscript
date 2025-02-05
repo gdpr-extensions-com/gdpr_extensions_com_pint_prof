@@ -1,1 +1,1 @@
-@import 'EXT:gdpr_extensions_com_pinterest_profile/Configuration/TypoScript/setup.typoscript'
+@import 'EXT:gdpr_extensions_com_pint_prof/Configuration/TypoScript/setup.typoscript'

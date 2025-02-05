@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GdprExtensionsCom\GdprExtensionsComPinterestProfile\Tests\Unit\Controller;
+namespace GdprExtensionsCom\GdprExtensionsComPintProf\Tests\Unit\Controller;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use TYPO3\TestingFramework\Core\AccessibleObjectInterface;
@@ -15,14 +15,14 @@ use TYPO3Fluid\Fluid\View\ViewInterface;
 class GdprManagerControllerTest extends UnitTestCase
 {
     /**
-     * @var \GdprExtensionsCom\GdprExtensionsComPinterestProfile\Controller\GdprManagerController|MockObject|AccessibleObjectInterface
+     * @var \GdprExtensionsCom\GdprExtensionsComPintProf\Controller\GdprManagerController|MockObject|AccessibleObjectInterface
      */
     protected $subject;
 
     protected function setUp(): void
     {
         parent::setUp();
-        $this->subject = $this->getMockBuilder($this->buildAccessibleProxy(\GdprExtensionsCom\GdprExtensionsComPinterestProfile\Controller\GdprManagerController::class))
+        $this->subject = $this->getMockBuilder($this->buildAccessibleProxy(\GdprExtensionsCom\GdprExtensionsComPintProf\Controller\GdprManagerController::class))
             ->onlyMethods(['redirect', 'forward', 'addFlashMessage'])
             ->disableOriginalConstructor()
             ->getMock();
@@ -42,7 +42,7 @@ class GdprManagerControllerTest extends UnitTestCase
             ->disableOriginalConstructor()
             ->getMock();
 
-        $gdprManagerRepository = $this->getMockBuilder(\GdprExtensionsCom\GdprExtensionsComPinterestProfile\Domain\Repository\GdprManagerRepository::class)
+        $gdprManagerRepository = $this->getMockBuilder(\GdprExtensionsCom\GdprExtensionsComPintProf\Domain\Repository\GdprManagerRepository::class)
             ->onlyMethods(['findAll'])
             ->disableOriginalConstructor()
             ->getMock();
@@ -61,7 +61,7 @@ class GdprManagerControllerTest extends UnitTestCase
      */
     public function showActionAssignsTheGivenGdprManagerToView(): void
     {
-        $gdprManager = new \GdprExtensionsCom\GdprExtensionsComPinterestProfile\Domain\Model\GdprManager();
+        $gdprManager = new \GdprExtensionsCom\GdprExtensionsComPintProf\Domain\Model\GdprManager();
 
         $view = $this->getMockBuilder(ViewInterface::class)->getMock();
         $this->subject->_set('view', $view);
@@ -75,9 +75,9 @@ class GdprManagerControllerTest extends UnitTestCase
      */
     public function createActionAddsTheGivenGdprManagerToGdprManagerRepository(): void
     {
-        $gdprManager = new \GdprExtensionsCom\GdprExtensionsComPinterestProfile\Domain\Model\GdprManager();
+        $gdprManager = new \GdprExtensionsCom\GdprExtensionsComPintProf\Domain\Model\GdprManager();
 
-        $gdprManagerRepository = $this->getMockBuilder(\GdprExtensionsCom\GdprExtensionsComPinterestProfile\Domain\Repository\GdprManagerRepository::class)
+        $gdprManagerRepository = $this->getMockBuilder(\GdprExtensionsCom\GdprExtensionsComPintProf\Domain\Repository\GdprManagerRepository::class)
             ->onlyMethods(['add'])
             ->disableOriginalConstructor()
             ->getMock();
@@ -93,7 +93,7 @@ class GdprManagerControllerTest extends UnitTestCase
      */
     public function editActionAssignsTheGivenGdprManagerToView(): void
     {
-        $gdprManager = new \GdprExtensionsCom\GdprExtensionsComPinterestProfile\Domain\Model\GdprManager();
+        $gdprManager = new \GdprExtensionsCom\GdprExtensionsComPintProf\Domain\Model\GdprManager();
 
         $view = $this->getMockBuilder(ViewInterface::class)->getMock();
         $this->subject->_set('view', $view);
@@ -107,7 +107,7 @@ class GdprManagerControllerTest extends UnitTestCase
      */
     public function updateActionUpdatesTheGivenGdprManagerInGdprManagerRepository(): void
     {
-        $gdprManager = new \GdprExtensionsCom\GdprExtensionsComPinterestProfile\Domain\Model\GdprManager();
+        $gdprManager = new \GdprExtensionsCom\GdprExtensionsComPintProf\Domain\Model\GdprManager();
 
         $gdprManagerRepository = $this->getMockBuilder(\GdprExtensionsCom\GdprExtensionsComYoutube\Domain\Repository\GdprManagerRepository::class)
             ->onlyMethods(['update'])
